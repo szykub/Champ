@@ -1,3 +1,25 @@
 *{
     box-sizing: border-box;
 }
+
+.mainHeader{
+    width: 100vw;
+    height: 5vh;
+    background: #222222;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) 3fr
+}
+
+.headerButton{
+    color: #fff;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 5vh;
+}
+
+.headerButton:hover{
+    background: #666666
+}
